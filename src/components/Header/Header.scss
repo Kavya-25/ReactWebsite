@@ -1,0 +1,32 @@
+@import '../../properties';
+.header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-image: url(../../../public/images/img-home.jpg);
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    .hero-btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2rem;
+        margin: 2rem ;
+    }
+    h1{
+        font-size: 4rem;
+        color:$background-white;
+    }
+    p{
+        font-size: 1.5rem;
+        color:$background-white;
+    }
+}

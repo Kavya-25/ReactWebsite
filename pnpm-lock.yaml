@@ -9,6 +9,7 @@ specifiers:
   react-icons: ^4.4.0
   react-router-dom: ^6.3.0
   react-scripts: 5.0.1
+  react-spinners: ^0.13.3
   sass: ^1.53.0
   web-vitals: ^2.1.4
 
@@ -21,6 +22,7 @@ dependencies:
   react-icons: 4.4.0_react@18.2.0
   react-router-dom: 6.3.0_react-dom@18.2.0+react@18.2.0
   react-scripts: 5.0.1_react@18.2.0+sass@1.53.0
+  react-spinners: 0.13.3_react-dom@18.2.0+react@18.2.0
   sass: 1.53.0
   web-vitals: 2.1.4
 
@@ -8129,6 +8131,16 @@ packages:
       - webpack-cli
       - webpack-hot-middleware
       - webpack-plugin-serve
+    dev: false
+
+  /react-spinners/0.13.3_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-FHQMH6dAl1Vw4Lxv0H7hbGsjBs0aKNVwjGrDJLuD9R/C3h9+IuBhKJOJyCcegxMaLiBSBV96Tp+XV3OwPK8Vtw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:

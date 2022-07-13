@@ -17,10 +17,10 @@ export default function Footer() {
         <div className="footer-info">
           <div className="info-left">
             <BsFillTelephoneFill className='telephone'/>&nbsp;+91 9272847398<br/><br/>
-            <AiOutlineMail/>&nbsp;srtravelsindia@gmail.com
+            <AiOutlineMail/>&nbsp;trvlindia@gmail.com
           </div>
           <div className="info-right">
-          <GoLocation className='location'/>&nbsp;5th Avenue Bakery,Peter Street London
+          <GoLocation className='location'/>&nbsp;5th Avenue Bakery,Peter Street Goa
           </div>
         </div>
         <div className="social-icons">

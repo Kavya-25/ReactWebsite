@@ -24,6 +24,9 @@
             margin: 20px;
             padding: 15px 30px;
         }
+        @media screen and (max-width:600px){
+            flex-direction: column;
+        }
     }
     h1{
         font-size: 4rem;

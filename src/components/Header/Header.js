@@ -14,7 +14,7 @@ export default function Header() {
                 GET STARTED
             </Button>
             <Button buttonStyle='btn--primary' buttonSize='btn--large' className='btn'>
-                WATCH TRAILER <AiFillPlayCircle className='play'/>
+                WATCH TRAILER 
             </Button>
 
         </div>

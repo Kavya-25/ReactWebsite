@@ -1,0 +1,20 @@
+@import '../../properties';
+.footer{
+    padding: 2rem;
+    background-color:$button-color;
+    color: $background-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    form{
+        padding: 1rem;
+        input{
+            font-size: 1.2rem;
+            margin: 0 2rem;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+    }
+}

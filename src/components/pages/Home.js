@@ -1,5 +1,6 @@
 import React from 'react'
 import Cards from '../Cards/Cards'
+import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
         <Header/>
         <Cards/>
+        <Footer/>
     </div>
   )
 }
